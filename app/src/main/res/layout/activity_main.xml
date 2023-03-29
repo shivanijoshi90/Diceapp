@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/txtscroll"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#2196F3"
+       android:textSize="24dp"/>
+
+    <ImageView
+        android:id="@+id/diceimg"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+    <Button
+        android:id="@+id/btntoss"
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:background="#7D8C93"
+        android:gravity="center"
+        android:text="TOSS"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="100dp"
+
+
+</LinearLayout>
